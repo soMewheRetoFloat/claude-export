@@ -1,0 +1,20 @@
+# exported data — never commit
+export/
+raw/
+*.zip
+
+# secrets
+cookies.json
+*.key
+*_key.txt
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# macOS
+.DS_Store
+*.part
